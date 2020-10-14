@@ -29,18 +29,18 @@ public class Calculator {
 
         }
 
-        else if (operator == '/') {
-         try{
+        else if (operator == '/' && num2!=0) {
+
             res = num1 / num2;
-            System.out.println(res);}
-
-            catch (ArithmeticException e) {
-                System.out.println("Exception caught: Division by zero is not possible.Try non Zero Denominator");
-            }
+            System.out.println(res);
 
 
-        } else {
-            System.out.println("You input wrong operator!Please try again!!");
+
+
+
+
+        } else if(operator == '/' && num2==0) {
+            System.out.println("Exception caught: Division by zero is not possible.Try non Zero Denominator");
 
 
         }
