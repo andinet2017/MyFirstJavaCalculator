@@ -80,7 +80,7 @@ public class Calculator {
 
 
         } else {
-            System.out.println("You entered  paku1!!");
+            System.out.println("You entered  mailee!!");
 
         }
 
