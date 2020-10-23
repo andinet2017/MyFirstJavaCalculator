@@ -80,7 +80,7 @@ public class Calculator {
 
 
         } else {
-            System.out.println("You entered  mailee!!");
+            System.out.println("You entered wrong operator.Try agian later!!");
 
         }
 
